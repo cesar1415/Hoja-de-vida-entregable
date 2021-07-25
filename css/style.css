@@ -1,0 +1,65 @@
+body{
+    font-family: "Raleway", sans-serif;
+    color: #465967;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.contenedor{
+    padding: 20px;
+    margin-top: 50px;
+    margin: 0 auto;
+    /* background: #e0f2f1; */
+    border: 3px solid #eeeef6;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background: #202c38;
+    color: #fcfcfe;
+}
+
+.linea{
+    width: 500px;
+    height: 5px;
+    margin-top: 20px;
+    background: #fcfcfe;
+}
+
+.nombre{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.descripcion{
+    letter-spacing: 3px;
+    margin-top: 15px;
+    font-size: 2.2em;
+}
+
+.imagen{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 130px;
+    height: 130px;
+    border: 3px solid #fcfcfe;
+    border-radius: 50%;
+}
+
+.experiencia{
+    background: #e6e6e9;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.experiencia-contenedor{
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
