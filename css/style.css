@@ -3,6 +3,7 @@ body{
     color: #465967;
     text-align: justify;
     margin-top: 30px;
+    background-image: url(../img/fondo-superficie-madera-blanca_23-2148067132.jpg);
 }
 
 .contenedor{
@@ -57,7 +58,7 @@ body{
 }
 
 .experiencia{
-    background: #e0f2f1;
+    background: #00796b;
     padding: 10px;
     color: black;
     text-transform: uppercase;
