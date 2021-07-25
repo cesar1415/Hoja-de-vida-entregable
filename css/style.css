@@ -16,7 +16,7 @@ body{
 .header{
     display: grid;
     grid-template-columns: 2fr 5fr;
-    background: #202c38;
+    background: #00796b;
     color: #fcfcfe;
 }
 
@@ -51,11 +51,17 @@ body{
     border-radius: 50%;
 }
 
+.pelicula{
+    width: 100px;
+    height: 100px;
+}
+
 .experiencia{
-    background: #e6e6e9;
+    background: #e0f2f1;
     padding: 10px;
     color: black;
     text-transform: uppercase;
+    border-radius: 0 40px 0 40px;
 }
 
 .experiencia-contenedor{
@@ -63,3 +69,65 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr 4fr;
 }
+
+.ui{
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr;
+}
+
+/* .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.encabezado{
+    margin-top: 0px;
+}
+
+.progress-bar{
+    background: #cdcdcf;
+    height: 15px;
+    margin-top: 5px;
+    /* width: 100px; */
+}
+
+.progress{
+    background: #00796b;
+    height: 15px;
+    width: 50px;
+}
+
+.progress-bar1{
+    background: #cdcdcf;
+    height: 15px;
+    margin-top: 5px;
+    /* width: 100px; */
+}
+
+.progress1{
+    background: #00796b;
+    height: 15px;
+    width: 50px;
+}
+.progress-bar2{
+    background: #cdcdcf;
+    height: 15px;
+    margin-top: 5px;
+    /* width: 100px; */
+}
+
+.progress2{
+    background: #00796b;
+    height: 15px;
+    width: 30px;
+}
+
+.head{
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
